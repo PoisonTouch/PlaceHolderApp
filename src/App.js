@@ -8,7 +8,7 @@ import ContextMenu from './Components/ContextMenu';
 function App() {
   return (
     <div>
-      <Header></Header>
+      
     </div>
   );
 }
