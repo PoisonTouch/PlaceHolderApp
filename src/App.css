@@ -60,6 +60,7 @@ background: #ED5353;
 
 .button {
   background: #ED5353;
+  border: 0;
 }
 
 .Menu-back {
@@ -80,11 +81,10 @@ text-align: Center;
 vertical-align: top;
 }
 
-header{
+.header{
 display: flex;
-justify-content: space-between;
 width: 1920px;
-height: 50px;
+height: 56px;
 align-items: center;
 background: #ED5353;
 }
