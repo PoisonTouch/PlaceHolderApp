@@ -19,3 +19,21 @@
     height: 0;
     display: none;
 }
+
+.modal_close {
+    text-align: right;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-right: 5px;
+    color: black;
+    cursor: pointer;
+}
+
+.modal_body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    vertical-align: top;
+    line-height: 100%;
+    font-size: 28px
+
+}

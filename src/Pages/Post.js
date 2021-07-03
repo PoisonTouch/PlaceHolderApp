@@ -1,5 +1,5 @@
 import Header from '../Components/Header';
-function Posts(props) {
+function Post(props) {
     return (
         <div>
           <Header title='Placeholder-Posts'></Header>
@@ -9,4 +9,4 @@ function Posts(props) {
     }
     
     
-export default Posts
+export default Post

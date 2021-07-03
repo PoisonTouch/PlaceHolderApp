@@ -1,12 +1,12 @@
 import Header from '../Components/Header';
-function Posts(props) {
+function Users(props) {
     return (
         <div>
-          <Header title='Placeholder-Posts'></Header>
+          <Header title='Placeholder-Users'></Header>
         </div>
         )
     
     }
     
     
-export default Posts
+export default Users
