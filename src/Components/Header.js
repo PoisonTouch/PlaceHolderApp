@@ -5,7 +5,7 @@ export default class Header extends Component {
     render() {
         return (
             
-                <div class="header">
+                <div className="header">
                     <h1 className="Title-text">PlaceHolder-Posts</h1>
                     <button className="button">< img src={MenuIcon}  alt="Кнопка «button»"></img></button>
                 </div>
