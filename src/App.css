@@ -83,7 +83,7 @@ vertical-align: top;
 
 .header{
 display: flex;
-width: 1920px;
+width: 100%;
 height: 56px;
 align-items: center;
 background: #ED5353;
