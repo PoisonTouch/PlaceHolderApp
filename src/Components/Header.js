@@ -4,7 +4,7 @@ import './Modal.css';
 import Modal from './Modal.js';
 import { Navbar, Container } from 'react-bootstrap'
 
-function Header(props) {
+function Header() {
     const [Modal, setModal] = useState({modal1:false})
         return (
             
