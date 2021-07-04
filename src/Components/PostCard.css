@@ -1,0 +1,42 @@
+.card {
+    width: 350px;
+    height: 300px;
+}
+
+.title-post {
+    font-family: Roboto;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 23px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: Top;
+}
+
+.name-user {
+    font-family: Roboto;
+    font-style: Italic;
+    font-size: 14px;
+    line-height: 16px;
+    line-height: 100%;
+    text-align:left ;
+    vertical-align: top;
+}
+
+.text-post {
+    font-family: 'Roboto','Regular';
+    font-size: 20px;
+    line-height: 23px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: top;
+    position: absolute;
+    right: 0;
+}
+
+.full-post {
+    position:absolute;
+    right: 10px;
+    
+}
+
