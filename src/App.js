@@ -9,13 +9,16 @@ import Posts from './Pages/Posts';
 import Post from './Pages/Post';
 import Users from './Pages/Users';
 import { useState } from 'react';
-
+import {Route,BrowserRouter} from "react-router-dom"
 function App() {
   
   return (
+    <BrowserRouter>
     <div>
-      <Users></Users>
+      <Route path="/users"component={Users}></Route>
+      <Route path="/posts" component={Posts}></Route>
     </div>
+    </BrowserRouter>
   );
 }
 
