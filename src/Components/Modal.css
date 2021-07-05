@@ -1,5 +1,6 @@
 .modal_wrapper{
     position: absolute;
+    z-index: 100;
     top:5%;
     right: 4.5%;
     width: 200px;

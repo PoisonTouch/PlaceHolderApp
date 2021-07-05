@@ -1,5 +1,5 @@
 import React, {Component,useEffect, useState} from 'react'
-import MenuIcon from './menu.jpg'
+import MenuIcon from './menu.svg'
 import './Modal.css';
 import Modal from './Modal.js';
 import { Navbar, Container } from 'react-bootstrap'
