@@ -11,7 +11,7 @@ const UserCard = props => {
                 <div className="name-text"><b>{props.name}</b></div>
                 <div className="mail">
                     <img class="mail-icon" src={MailIcon} alt="mail" />
-                    <div className="mail-text">{props.mail}</div>
+                    <div className="mail-text"><i>{props.mail}</i></div>
                 </div>
                 <div className="phone">
                     <img class="phone-icon" src={PhoneIcon} alt="phone" />

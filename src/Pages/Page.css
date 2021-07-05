@@ -1,3 +1,10 @@
 body {
     background: #E9E8E8;
   }
+
+  .posts-container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 100px;
+      margin-left: 50px;
+  }
