@@ -1,56 +1,57 @@
 .card {
-    margin-left: 50px;
-    margin-bottom: 50px;
-    width: 350px;
-    height: 300px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  width: 350px;
+  height: 300px;
 }
 
 .title-post {
-    font-family: Roboto;
-    font-style: Bold;
-    padding-bottom: 5px;
-    padding-left: 28px;
-    font-size: 20px;
-    line-height: 23px;
-    line-height: 100%;
-    text-align: left;
-    padding-top: 28px;
-    vertical-align: Top;
+  font-family: Roboto;
+  font-style: Bold;
+  padding-bottom: 5px;
+  padding-left: 28px;
+  padding-right: 28px;
+  font-size: 20px;
+  line-height: 23px;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 28px;
+  vertical-align: Top;
 }
 
 .name-user {
-    font-family: Roboto;
-    font-style: Italic;
-    font-size: 14px;
-    padding-left: 28px;
-    line-height: 16px;
-    line-height: 100%;
-    text-align:left ;
-    vertical-align: top;
+  font-family: Roboto;
+  font-style: Italic;
+  font-size: 14px;
+  padding-left: 28px;
+  line-height: 16px;
+  line-height: 100%;
+  text-align: left;
+  vertical-align: top;
 }
 
 .text-post {
-    font-family: 'Roboto','Regular';
-    font-size: 20px;
-    line-height: 23px;
-    line-height: 100%;
-    text-align: left;
-    padding-left: 28px;
-    padding-right: 37px;
-    padding-top: 25px;
-    vertical-align: top;
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;  
-    overflow: hidden;
+  font-family: "Roboto", "Regular";
+  font-size: 20px;
+  line-height: 23px;
+  line-height: 100%;
+  text-align: left;
+  padding-left: 28px;
+  padding-right: 37px;
+  padding-top: 25px;
+  vertical-align: top;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .full-post {
-    text-align: right;
-    padding-top: 40px;
-    padding-right: 20px;
-    padding-bottom: 22px;
-    cursor: pointer;
-    font-size: 30px;
+  text-align: right;
+  position: relative;
+  cursor: pointer;
+  padding-top: 20px;
+  padding-right: 20px;
+  font-size: 25px;
+  color: black;
 }
-

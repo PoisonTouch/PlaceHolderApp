@@ -2,7 +2,7 @@ import Header from '../Components/Header';
 function Post(props) {
     return (
         <div>
-          <Header title='Placeholder-Posts'></Header>
+          <Header title='Placeholder-Post'></Header>
         </div>
         )
     

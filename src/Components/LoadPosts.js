@@ -61,7 +61,7 @@ class LoadPosts extends Component {
     renderPost = () => {
         return this.state.posts.map( post => {
             return (
-                <PostCard title={post.title} text={post.body} name={this.getNameUser(post.userId)}></PostCard>
+                <PostCard title={post.title} text={post.body} name={this.getNameUser(post.userId)} fullpostref=">"></PostCard>
             )
         })
     }
