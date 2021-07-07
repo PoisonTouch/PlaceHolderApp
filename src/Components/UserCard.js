@@ -6,7 +6,9 @@ const UserCard = props => {
 
     return (
         <div className="usercard">
-            <img class="card-photo" src={Avatar} alt="avatar" />
+            <div class="card-photo" >
+                <div class="logouser">{props.logo}</div>
+            </div>
             <div className="text">
                 <div className="name-text"><b>{props.name}</b></div>
                 <div className="mail">

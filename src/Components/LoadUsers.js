@@ -57,11 +57,26 @@ class LoadUsers extends Component {
         return NameUser
     }
     
+    getLogouser(name)
+    {
+       let chars = []
+       chars = name
+       let logo ="" 
+       for(let i = 0;i<chars.length;i++){
+           if(i==0){
+               logo+=chars[i]
+           }
+           if(chars[i]==" "){
+               logo+=chars[i+1]
+           }
+       }
+       return logo
+    }
 
     renderUser = () => {
         return this.state.users.map( user => {
             return (
-                <UserCard name={user.name} mail={user.email} phone={user.phone}></UserCard>
+                <UserCard logo={this.getLogouser(user.name)} name={user.name} mail={user.email} phone={user.phone}></UserCard>
             )
         })
     }

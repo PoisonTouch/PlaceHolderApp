@@ -10,11 +10,24 @@
 }
 
 .card-photo {
+    background: url("./Ellipse.svg");
     height: 120px;
     width: 120px;
     margin-top: 15px;
     margin-left: 15px;
     vertical-align:middle ;
+}
+
+.logouser {
+    margin-top: 30px;
+    font-family: Roboto;
+    font-style: Regular;
+    font-size: 50px;
+    line-height: 59px;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: center;
+   
 }
 
 .mail {
@@ -62,3 +75,4 @@
 .text {
     padding-left: 32px;
 }
+
