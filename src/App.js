@@ -16,7 +16,7 @@ function App() {
   return (
     <BrowserRouter>
       <div>
-        <Route path="/posts" component={Posts}></Route>
+        <Route exact path="/posts" component={Posts}></Route>
         <Route path="/users" component={Users}></Route>
       </div>
     </BrowserRouter>
