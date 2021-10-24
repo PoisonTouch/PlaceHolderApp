@@ -8,7 +8,7 @@ function Users() {
     <div>
       <Header title="Placeholder-Users"></Header>
       <div className="posts-container">
-          <LoadUsers></LoadUsers>
+        <LoadUsers></LoadUsers>
       </div>
     </div>
   );

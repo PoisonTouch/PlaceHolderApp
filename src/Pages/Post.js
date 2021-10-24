@@ -4,7 +4,7 @@ import { Route, BrowserRouter } from "react-router-dom";
 function Post(props) {
   return (
     <BrowserRouter path={props.postid}>
-    <div> 
+      <div>
         <Header title="Placeholder-Post"></Header>
         <FullPostCard
           title={props.title}

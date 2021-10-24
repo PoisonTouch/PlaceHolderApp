@@ -51,7 +51,7 @@ class LoadPosts extends Component {
 
   renderPost = () => {
     return this.state.posts.map((post) => {
-    let adress='/posts/'+post.id
+      let adress = "/posts/" + post.id;
       return (
         <PostCard
           title={post.title}

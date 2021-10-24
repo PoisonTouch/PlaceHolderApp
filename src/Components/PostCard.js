@@ -8,7 +8,9 @@ const PostCard = (props) => {
       </div>
       <div className="name-user">{props.name}</div>
       <div className="text-post">{props.text}</div>
-      <a className="full-post" href={props.fullpostref}>ᐳ</a>
+      <a className="full-post" href={props.fullpostref}>
+        ᐳ
+      </a>
     </div>
   );
 };
